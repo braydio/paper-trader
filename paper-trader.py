@@ -9,8 +9,6 @@ secret_key = os.getenv("SECRET")
 
 paper = True # If not paper then u know what to do
 
-# Below are the variables for development this documents
-# Please do not change these variables
 trade_api_url = None
 trade_api_wss = None
 data_api_url = None

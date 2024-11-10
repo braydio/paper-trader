@@ -1,14 +1,13 @@
 import os
 
-# Please change the following to your own PAPER api key and secret
-# You can get them from https://alpaca.markets/
-# Alternatively, you can set the APCA_API_KEY_ID and APCA_API_SECRET_KEY environment variables
+# API and Secret
+# From https://alpaca.markets/
+# SET IN .env
 api_key = os.getenv("KEY")
 secret_key = os.getenv("SECRET")
 
-#### We use paper environment for this example ####
-paper = True # Please do not modify this. This example is for paper trading only.
-####
+
+paper = True # If not paper then u know what to do
 
 # Below are the variables for development this documents
 # Please do not change these variables
